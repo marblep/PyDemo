@@ -3,7 +3,8 @@ from country_codes import get_country_code
 from pygal.maps.world import World
 from pygal.style import LightColorizedStyle as LCS, RotateStyle as RS
 
-filename = r'matplot-demo\worldmap\population_data.json'
+#filename = r'matplot-demo\worldmap\population_data.json'
+filename = 'population_data.json'
 with open(filename) as f:
     pop_data = json.load(f)
 
